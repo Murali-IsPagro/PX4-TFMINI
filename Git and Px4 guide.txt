@@ -1,0 +1,32 @@
+1.Paste the tf02 folder in PX4-Autopilot/src/drivers/distancesensor
+2.In src/drivers/distance_sensor/Kconfig  add "select DRIVERS_DISTANCE_SENSOR_TFMINI"
+3.In src/drivers/distance_sensor/CMakeLists.txt add "add_subdirectory(tfmini)"
+4.In src/drivers/drv_sensor.h add "#define DRV_DIST_DEVTYPE_TFMINI        0x79" ( choose no as if It should not be taken by other sensor)
+5. In TF02 folder add any new file like KConfig , ( which is not available in v 1.12.3) 
+6. build the file "make cubepilot_cubeorange_default"
+7. Flash and chck in parameters in QGC
+
+Git Commands
+1. create a repo in git say, PX4-TFmini
+2. Once generated copy the git clone address "https://github.com/Murali-IsPagro/PX4-TFMINI.git"
+3. Create a new folder in laptop same as git repo "PX4-Tfmini"
+4. go to the folder using terminal "cd PX4-Tfmini"
+5. "git add ."
+6. "git commit -m "TF02""
+7. git config --global user.name "Murali-IsPagro"
+8. git config -l
+9. git push
+
+It asks for user name and password.
+
+Enter your github user name 
+For password:
+
+Follow the steps : https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
+Create a new token which will be valid only for 30 days. after creating the personal token copy and replace in place of password in terminal.
+
+Your repo will be updated.
+
+
+
