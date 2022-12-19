@@ -1,0 +1,4 @@
+if [ ! -e /dev/console ]
+then
+mavlink start -d /dev/ttyS4 -b 57600 -m minimal
+fi

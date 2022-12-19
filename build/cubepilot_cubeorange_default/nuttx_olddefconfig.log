@@ -1,0 +1,25 @@
+LN: include/arch to arch/arm/include
+LN: include/arch/board to /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/nuttx/../../../../boards/cubepilot/cubeorange/nuttx-config/include
+LN: include/arch/chip to arch/arm/include/stm32h7
+LN: arch/arm/src/board to /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/nuttx/../../../../boards/cubepilot/cubeorange/nuttx-config/src
+LN: arch/arm/src/chip to arch/arm/src/stm32h7
+LN: /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/nuttx/drivers/platform to /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/nuttx/drivers/dummy
+LN: platform/board to /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/apps/platform/dummy
+mkkconfig in /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/apps/examples
+mkkconfig in /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/apps/crypto
+mkkconfig in /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/apps/gpsutils
+mkkconfig in /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/apps/system/libuv
+mkkconfig in /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/apps/system
+mkkconfig in /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/apps/netutils
+mkkconfig in /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/apps/math
+mkkconfig in /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/apps/interpreters
+mkkconfig in /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/apps/testing
+mkkconfig in /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/apps/graphics
+mkkconfig in /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/apps/fsutils
+mkkconfig in /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/apps/canutils
+mkkconfig in /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/apps/wireless/ieee802154
+mkkconfig in /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/apps/wireless/bluetooth
+mkkconfig in /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/apps/wireless
+mkkconfig in /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/apps/industry
+mkkconfig in /home/murali/Documents/PX4-Autopilot/platforms/nuttx/NuttX/apps
+DEBUG: kconfiglib kconfig-conf wrapper, arguments: --olddefconfig Kconfig

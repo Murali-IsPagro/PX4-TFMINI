@@ -1,0 +1,15 @@
+menu "Distance sensors"
+    menuconfig COMMON_DISTANCE_SENSOR
+        bool "Common distance sensor's"
+        default n
+        select DRIVERS_DISTANCE_SENSOR_TERARANGER
+        select DRIVERS_DISTANCE_SENSOR_TFMINI
+	select DRIVERS_DISTANCE_SENSOR_TF02
+        select DRIVERS_DISTANCE_SENSOR_ULANDING_RADAR
+        select DRIVERS_DISTANCE_SENSOR_VL53L0X
+        select DRIVERS_DISTANCE_SENSOR_VL53L1X
+        ---help---
+            Enable default set of distance sensor drivers
+
+    rsource "*/Kconfig"
+endmenu

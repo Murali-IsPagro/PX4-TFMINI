@@ -1,0 +1,1 @@
+cmd='/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake;-DCONFIG=cubepilot_io-v2_default;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'
